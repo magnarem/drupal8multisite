@@ -55,3 +55,6 @@
  * @see \Drupal\Core\DrupalKernel::getSitePath()
  * @see https://www.drupal.org/documentation/install/multi-site
  */
+$sites = [
+  '443.demosearch.metsis.met.no' => 'demosearch',
+];
