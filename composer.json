@@ -1,0 +1,210 @@
+{
+    "name": "drupal/recommended-project",
+    "description": "Project template for Drupal 8 projects with a relocated document root",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/drupal",
+    "support": {
+        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
+        "chat": "https://www.drupal.org/node/314178"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+	{
+	"type": "composer",
+	"url": "https://asset-packagist.org"
+	}
+    ],
+    "require": {
+        "bower-asset/jquery-ui-slider-pips": "^1.11",
+        "composer/installers": "^1.2",
+        "drupal/address": "^1.8",
+        "drupal/addthis": "4.x-dev",
+        "drupal/backup_migrate": "^4.1",
+        "drupal/better_exposed_filters": "^4.0@beta",
+        "drupal/blog": "^2.0@beta",
+        "drupal/business": "^1.7",
+        "drupal/calendar": "^1.0@alpha",
+        "drupal/calendar_datetime": "^1.0@alpha",
+        "drupal/captcha": "^1.0",
+        "drupal/changed_fields": "^3.2",
+        "drupal/collapse_text": "^1.0",
+        "drupal/config_delete": "^1.17",
+        "drupal/console": "^1.9",
+        "drupal/core-composer-scaffold": "^8.8",
+        "drupal/core-project-message": "^8.8",
+        "drupal/core-recommended": "^8.8",
+        "drupal/core_views_facets": "^1.1",
+        "drupal/cors": "^1.0",
+        "drupal/creative": "^1.0@beta",
+        "drupal/ctools": "^3.4",
+        "drupal/danland": "^1.0",
+        "drupal/date_popup": "^1.0",
+        "drupal/date_range_formatter": "^3.1",
+        "drupal/date_recur": "^2.0",
+        "drupal/date_recur_interactive": "^2.0@alpha",
+        "drupal/datetime_extras": "^1.0@alpha",
+        "drupal/delete_all": "^1.2",
+        "drupal/devel": "^2.1",
+        "drupal/devel_entity_updates": "^2.0",
+        "drupal/drupalmoduleupgrader": "^1.5",
+        "drupal/duration_field": "^1.6",
+        "drupal/entity": "^1.0",
+        "drupal/entity_delete": "^1.6",
+        "drupal/entity_draft": "1.x-dev",
+        "drupal/entity_reference_revisions": "^1.8",
+        "drupal/entity_usage": "^2.0@beta",
+        "drupal/error_log": "^1.4",
+        "drupal/extlink": "^1.3",
+        "drupal/fac": "^1.4",
+        "drupal/facets": "^1.4",
+        "drupal/facets_custom_label": "^1.1",
+        "drupal/faq": "^1.0@alpha",
+        "drupal/features": "^3.8",
+        "drupal/feeds": "^3.0@alpha",
+        "drupal/field_formatter": "^1.2",
+        "drupal/field_formatter_class": "^1.3",
+        "drupal/field_group": "^3.0",
+        "drupal/field_group_migrate": "^3.0",
+        "drupal/field_permissions": "^1.0@RC",
+        "drupal/filefield_paths": "^1.0@beta",
+        "drupal/forena": "1.x-dev",
+        "drupal/fullcalendar_view": "^4.1",
+        "drupal/garland": "^2.0@alpha",
+        "drupal/geocoder": "^3.1",
+        "drupal/geofield": "^1.13",
+        "drupal/geofield_map": "^2.62",
+        "drupal/geolocation": "^3.1",
+        "drupal/imce": "^2.2",
+        "drupal/leaflet": "^1.36",
+        "drupal/leaflet_geojson": "^1.3",
+        "drupal/libraries": "^3.0@alpha",
+        "drupal/mayo": "^1.3",
+        "drupal/menu_link_attributes": "^1.0",
+        "drupal/migrate_plus": "^5.1",
+        "drupal/migrate_tools": "^5.0",
+        "drupal/migrate_upgrade": "^3.2",
+        "drupal/nodeaccess": "^1.0@beta",
+        "drupal/omega": "^5.0@alpha",
+        "drupal/openlayers": "^1.2",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/pagerer": "^2.0",
+        "drupal/paragraph_view_mode": "^1.2",
+        "drupal/paragraphs": "^1.11",
+        "drupal/pathauto": "^1.8",
+        "drupal/poll": "^1.3",
+        "drupal/readonly_field_widget": "^1.3",
+        "drupal/redirect": "^1.5",
+        "drupal/redirecton403": "^1.0",
+        "drupal/scheduler": "^1.1",
+        "drupal/search_api": "^1.16",
+        "drupal/search_api_autocomplete": "^1.3",
+        "drupal/search_api_location": "^1.0@alpha",
+        "drupal/search_api_location_views": "^1.0@alpha",
+        "drupal/search_api_solr": "^4.0",
+        "drupal/search_api_sorts": "^1.0@beta",
+        "drupal/select_or_other": "^1.0@alpha",
+        "drupal/smart_date": "^2.5",
+        "drupal/superfish": "^1.3",
+        "drupal/time_field": "^1.13",
+        "drupal/token_views_filter": "^1.4",
+        "drupal/video": "^1.4",
+        "drupal/views_attach_library": "^2.0",
+        "drupal/views_autocomplete_filters": "^1.3",
+        "drupal/views_bulk_operations": "^3.6",
+        "drupal/views_conditional": "^1.0",
+        "drupal/views_field_view": "^1.0@beta",
+        "drupal/views_fieldsets": "^3.3",
+        "drupal/views_geojson": "^1.0",
+        "drupal/views_row_insert": "^1.2",
+        "drupal/webform": "^5.11",
+        "drupal/webform_validation": "^1.0@alpha",
+        "drush/drush": "^10.2",
+        "geocoder-php/algolia-places-provider": "^0.1.1",
+        "geocoder-php/bing-maps-provider": "^4.0",
+        "geocoder-php/chain-provider": "^4.1",
+        "geocoder-php/free-geoip-provider": "^4.2",
+        "geocoder-php/geo-plugin-provider": "^4.0",
+        "geocoder-php/geocode-earth-provider": "^1.1",
+        "geocoder-php/geoips-provider": "^4.2",
+        "geocoder-php/geonames-provider": "^4.1",
+        "geocoder-php/google-maps-provider": "^4.4",
+        "geocoder-php/here-provider": "^0.3.0",
+        "oomphinc/composer-installers-extender": "^1.1",
+        "symfony/event-dispatcher": "4.3.11 as 3.4.35",
+        "wikimedia/composer-merge-plugin": "^1.4"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+	"installer-types": ["npm-asset", "bower-asset"],
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
+        },
+	"merge-plugin": {
+	    "include": [
+		"web/modules/contrib/webform/composer.libraries.json"
+	   ]
+	},
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+		"vendor:npm-asset",
+		"vendor:bower-asset"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
+                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/8/install",
+                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+                "  * Get support: https://www.drupal.org/support",
+                "  * Get involved with the Drupal community:",
+                "      https://www.drupal.org/getting-involved",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        }
+    }
+}
