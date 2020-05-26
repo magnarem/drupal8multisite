@@ -57,4 +57,5 @@
  */
 $sites = [
   'demosearch.metsis.met.no' => 'demosearch',
+  'aq-test.met.no' => 'aq-test',
 ];
