@@ -1,0 +1,14 @@
+uuid: 470a3f94-1515-4259-b117-4826642043c9
+name: aq.met.no
+mail: magnarem@met.no
+slogan: 'MET Norway Air Quality Portal'
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

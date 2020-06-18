@@ -1,0 +1,22 @@
+uuid: 50aa9397-f9e1-4e37-9ac6-aa35ffa1cd20
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - danland
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: danland_powered
+theme: danland
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

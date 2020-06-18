@@ -1,0 +1,35 @@
+uuid: 74db84d2-0da7-486e-8692-9fb05e00daef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: bartik_branding
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'MET Norway Air Quality Portal'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      dir_listing: dir_listing
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

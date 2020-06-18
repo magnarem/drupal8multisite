@@ -1,0 +1,25 @@
+uuid: 38b02a38-be75-4f9e-9ea7-7aa5c3de2087
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - danland
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: danland_branding
+theme: danland
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

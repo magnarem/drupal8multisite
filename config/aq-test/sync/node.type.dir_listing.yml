@@ -1,0 +1,16 @@
+uuid: 369be58f-65b3-4b39-930f-3941bb3f2277
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - filebrowser
+_core:
+  default_config_hash: MFkRSLgKA0SnTapJ6TPj040eYkilEeX5lsrY9dDjoAA
+name: 'Directory listing'
+type: dir_listing
+description: '<em>Directory listings</em> node type is needed and created by Filebrowser module.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

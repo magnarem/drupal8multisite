@@ -1,0 +1,28 @@
+uuid: a4bfb5a0-93e6-490a-8df1-f8ea3cb7ec4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.service.body
+    - node.type.service
+  module:
+    - text
+    - user
+id: node.service.default
+targetEntityType: node
+bundle: service
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
